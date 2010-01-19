@@ -1,0 +1,8 @@
+*.o
+worldzor
+testzor
+Makefile
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+src/worldzor.dir
