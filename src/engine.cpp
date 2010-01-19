@@ -20,9 +20,7 @@ Engine::Engine(int width, int height, bool fullscreen)
 		flags |= SDL_HWACCEL;
 
 	if(fullscreen)
-		flags = flags|SDL_FULLSCREEN;
-
-	SDL_GL_SetAttribute( SDL_GL_DOUBLEBUFFER, 1 );
+		flags |= SDL_FULLSCREEN;
 
 	_surface = SDL_SetVideoMode(width, height, 32, flags);
 	if(_surface == 0)
@@ -177,7 +175,7 @@ Engine::update()
 	{
 		if(error == GL_NO_ERROR)
 			break;
-		//std::cerr << glGetError() << std::endl;
+		std::cerr << glGetError() << std::endl;
 	}
 
 	if(_states.empty())
