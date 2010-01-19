@@ -64,8 +64,8 @@ Engine::initGL()
 
 	glEnable(GL_TEXTURE_2D);
 
-	//glShadeModel(GL_SMOOTH);
-	glShadeModel(GL_FLAT);
+	glShadeModel(GL_SMOOTH);
+	//glShadeModel(GL_FLAT);
 	glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST);
 
 /*	GLfloat light_pos[] = {-2.0, 2.0, 2.0, 1.0};
