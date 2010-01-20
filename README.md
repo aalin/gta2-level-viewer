@@ -2,7 +2,7 @@
 
 This code is quite old. I wrote it in the summer of 2008 and I haven't touched it since.
 
-![Screenshot. Broken textures.](http://imgur.com/ROJnA.png)
+![Screenshot.](http://imgur.com/Nhw6F.jpg)
 
 # How to run
 
