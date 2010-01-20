@@ -55,13 +55,13 @@ Geometry::drawBuffers()
 	glEnableClientState(GL_NORMAL_ARRAY);
 	_normal_buffer->bind();
 	glNormalPointer(GL_FLOAT, 0, 0);*/
-	glClientActiveTexture(GL_TEXTURE0);
+	glEnableClientState(GL_TEXTURE_COORD_ARRAY);
 	_texcoord_buffer->bind();
 	glTexCoordPointer(2, GL_FLOAT, 0, 0);
 	glDrawArrays(GL_TRIANGLES, 0, static_cast<GLsizei>(_positions.size()));
 
-	glDisableClientState(GL_VERTEX_ARRAY);
+	glDisableClientState(GL_TEXTURE_COORD_ARRAY);
 //	glDisableClientState(GL_NORMAL_ARRAY);
-	glClientActiveTexture(GL_TEXTURE0);
+	glDisableClientState(GL_VERTEX_ARRAY);
 }
 

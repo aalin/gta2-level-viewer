@@ -21,7 +21,7 @@ And run it:
 
 # Bugs
 
-* The textures doesn't seem to be working properly, at least not on OS X.
 * Some "blocks" don't show up right.
+* Transparent textures aren't transparent.
 * There is no ordering of transparent quads.
 
