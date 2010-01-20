@@ -21,7 +21,11 @@ And run it:
 
 # Bugs
 
-* Some "blocks" don't show up right.
+* Most slope types aren't implemented.
 * Transparent textures aren't transparent.
 * There is no ordering of transparent quads.
+
+# How to fix stuff
+
+You can find documentation on the map and style formats here: http://gtamp.com/gta2/
 
